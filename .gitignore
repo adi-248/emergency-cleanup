@@ -1,0 +1,27 @@
+# Google OAuth secrets and tokens
+credentials/*.json
+!credentials/*.example
+token*.json
+
+# Optional NAS / archive backend credentials
+config/*credentials*.json
+!config/*.example
+
+# Generated mailbox reports
+reports/*.xlsx
+!reports/.gitkeep
+
+# Archived email copies (local backend)
+archive/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS
+Thumbs.db
+.DS_Store
